@@ -42,7 +42,7 @@ npm install
 Create a MongoDB database and obtain a connection URI.
 Update the process.env.MONGO_URI in backend/deConnection.js with your MongoDB URI.
 
-Usage
+# Usage
 1.Start the backend server:
 cd backend
 npm start
@@ -51,17 +51,17 @@ cd ../frontend
 npm start
 3.Open your browser and visit http://localhost:3000 to explore UrbanUtopiaEats.
 
-Backend
+# Backend
 The backend is built with Node.js, Express, and MongoDB. It handles reservations and connects to the MongoDB database.
 
 -Reservation Endpoint: `/api/v1/reservation/send`
 -Database Connection: `backend/deConnection.js`
 -Error Handling: `backend/error/error.js`
 
-Frontend
+# Frontend
 The frontend is a React application that provides a user-friendly interface for exploring the restaurant, making reservations, and learning more about the team and philosophy.
 
-Pages:
+# Pages:
 -About.jsx
 -Footer.jsx
 -HeroSection.jsx
@@ -74,10 +74,10 @@ Pages:
 -NotFound.jsx
 -Success.jsx
 
-Contributing
+# Contributing
 Contributions are welcome! Feel free to open issues and pull requests.
 
-License
+# License
 This project is licensed under the MIT License.
 
 Output(Preview) :
