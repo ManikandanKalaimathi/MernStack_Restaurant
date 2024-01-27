@@ -38,54 +38,6 @@ npm install
 cd ../frontend
 npm install
 
-2.
-Certainly! Below is a template for your GitHub README.md file. You can customize it according to your project structure, features, and information.
-
-markdown
-Copy code
-# UrbanUtopiaEats
-
-UrbanUtopiaEats is a restaurant application that allows users to explore the menu, make reservations, and learn more about the restaurant and its team.
-
-## Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Backend](#backend)
-- [Frontend](#frontend)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Features
-
-- **Menu Exploration:** View popular dishes and their categories.
-- **Reservation:** Make reservations with a user-friendly form.
-- **About Us:** Learn about the restaurant and its culinary philosophy.
-- **Our Team:** Meet the dedicated team behind UrbanUtopiaEats.
-- **Who Are We:** Explore the essence of the restaurant and its mission.
-- **404 Page:** Custom page for handling not-found routes.
-- **Success Page:** Custom page displayed after successful reservation.
-
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/UrbanUtopiaEats.git
-   cd UrbanUtopiaEats
-Install dependencies:
-
-bash
-Copy code
-# Install backend dependencies
-cd backend
-npm install
-
-# Install frontend dependencies
-cd ../frontend
-npm install
-
 2.Set up MongoDB:
 Create a MongoDB database and obtain a connection URI.
 Update the process.env.MONGO_URI in backend/deConnection.js with your MongoDB URI.
